@@ -1,0 +1,26 @@
+{
+  "name": "solid_principles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "srp": "npx ts-node-dev --transpile-only ./1.Single_Responsibility_Principle/Correction/index.ts",
+    "ocp": "npx ts-node-dev --transpile-only ./2.Open_Closed_Principle/Correction/index.ts",
+    "lsp": "npx ts-node-dev --transpile-only ./3.Liskov_Substitution_Principle/Correction/index.ts",
+    "isp": "npx ts-node-dev --transpile-only ./4.Interface_Segregation_Principle/Correction/index.ts",
+    "dip": "npx ts-node-dev --transpile-only ./5.Dependency_Inversion_Principle/Correction/index.ts"
+  },
+  "keywords": [
+    "solid principles",
+    "oriented object",
+    "best practices",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Amadou Beye",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.2"
+  }
+}
